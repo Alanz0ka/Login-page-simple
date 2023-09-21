@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    justify-content: space-between;
+}
+
+#checkbox{
+    border: 2px solid #827ffe;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+#forgot{
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+h1{
+    font-size: 30px;
+    color: #403866;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.entrada{
+    font-family: 'Ubuntu';
+    width: 100%;
+    color: #403866;
+    background-color: #e6e6e6;
+    border: none;
+    border-radius: 5px;
+    height: 62px;
+    padding: 0 20px 0 38px;
+    font-size: 18px;
+}
+
+label{
+    font-size: 16px;
+    color: #999;
+    line-height: 1.2;
+    cursor: pointer;
+    
+}
+button{
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 120%;
+    height: 63px;
+    border: none;
+    background-color: #827ffe;
+    color: #fff;
+}
